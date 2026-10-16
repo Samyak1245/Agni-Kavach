@@ -1,4 +1,9 @@
 {
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
