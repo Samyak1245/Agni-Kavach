@@ -17,4 +17,10 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 
+// import alert controller
+
+import allroutes from "./routes/index.routes.js"
+
+app.use("api/v1", allroutes);
+
 export default app;
