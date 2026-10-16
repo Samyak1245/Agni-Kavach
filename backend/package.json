@@ -1,8 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "dev": "nodemon --exec tsx src/index.js",
+    "start": "tsx src/index.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",
@@ -12,5 +12,8 @@
     "mongoose": "^9.11.2",
     "mongoose-aggregate-paginate-v2": "^1.1.5",
     "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
   }
 }
