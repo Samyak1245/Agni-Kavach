@@ -1,0 +1,8 @@
+{
+  "name": "Agni Kavach — Forest Fire Detection & Response System",
+  "description": "Satellite thermal anomaly verification, explainable priority triage, and ranger response routing for Tadoba-Andhari Tiger Reserve (TATR).",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
